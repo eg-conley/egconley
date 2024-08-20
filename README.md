@@ -11,4 +11,6 @@
 ### August 19, 2024:
 - changed language to javascript and re-structured the backend
 - polished up styling and organization of landing page
-- worked on routing for subpages
+- worked on routing for subpages## August 15
+- started designing and configuring the home page
+- created background on Photoshop
