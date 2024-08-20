@@ -8,6 +8,10 @@
 - restructured the files to clear any unneccesary code from Vite setup
 - made separate pages and link
 
+## August 15
+- started designing and configuring the home page
+- created background on Photoshop
+
 ### August 19, 2024:
 - changed language to javascript and re-structured the backend
 - polished up styling and organization of landing page
