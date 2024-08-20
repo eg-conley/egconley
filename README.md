@@ -8,3 +8,7 @@
 - restructured the files to clear any unneccesary code from Vite setup
 - made separate pages and link
 
+### August 19, 2024:
+- changed language to javascript and re-structured the backend
+- polished up styling and organization of landing page
+- worked on routing for subpages
