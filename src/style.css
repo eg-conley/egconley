@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image:url("assets/paperbackground.jpg");
+    background-image:url("/src/assets/paperbackground.jpg");
     height:2000px;
     width:100vw;
     padding:0;
