@@ -8,7 +8,7 @@
 - restructured the files to clear any unneccesary code from Vite setup
 - made separate pages and link
 
-## August 15
+### August 15
 - started designing and configuring the home page
 - created background on Photoshop
 
@@ -18,3 +18,8 @@
 - worked on routing for subpages## August 15
 - started designing and configuring the home page
 - created background on Photoshop
+
+### October 3
+- restarted with fresh React project, configured from there instead of with Vite
+- learned and set out routing to pages
+- refined JS code and cleaned up setup
