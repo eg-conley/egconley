@@ -4,4 +4,4 @@ function Contact() {
     );
 }
 
-export default Projects;
+export default Contact;

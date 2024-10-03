@@ -4,4 +4,4 @@ function ArtDesign() {
     );
 }
 
-export default Projects;
+export default ArtDesign;
