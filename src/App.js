@@ -2,11 +2,10 @@ import './App.css';
 import stamps from './assets/stamps.png';
 import computer from './assets/computer.png';
 
-
 function App() {
   return (
     <div className="page">
-          <a href="x">
+          <a href="./About">
             <img className="logo" src={stamps}></img>
           </a>
         <ul className="navbar">
