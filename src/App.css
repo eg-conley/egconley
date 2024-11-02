@@ -1,22 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Quicksand:wght@300..700&display=swap');
 
 * {
-    box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-image:url("/src/assets/paperbackground.jpg");
-    height:1500px;
-    width:100vw;
-    padding:0;
-    margin:0;
-    overflow-x:hidden;
-    overflow-y:scroll;
+    background-image: url("/src/assets/paperbackground.jpg");
+    margin-bottom: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.logo {
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 0;
+    padding: 10px 0;
+
+    background-image: url("/src/assets/paperbackground.jpg");
+    box-shadow: 0 1px 5px rgba(41, 51, 91, 0.1);
+
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar a {
+    color: #29335C;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #DB2B39;
+    font-style: italic;
+}
+
+#about, #experience, #projects, #artdesign, #contact {
+    width: 75vw;
+    height: auto;
+    position: relative;
+    top: 50px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fefefe8e;
+    border-radius: 12px;
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight:300;
+    letter-spacing:5px;
+    color: #29335C;
+}
+
+#about h1, #experience h2, #projects h2, #artdesign h2, #contact h2 {
+    text-align: center;
+    font-family: "Playfair Display";
+}
+
+/* about */
+.profile-img {
+    text-align: center;
+}
+
+.profile-text p{
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #29335C;
+    padding: 15px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skills img {
+    padding: 25px;
+}
+
+/* experience */
+.job {
+    padding: 15px;
+}
+
+.job-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job ul {
+    margin-left: 20px;
+}
+
+/* projects*/
+.project {
+    padding: 15px;
+}
+
+.project a{
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* art & design */
+.artwork {
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight:300;
+    letter-spacing:5px;
+    color: #29335C;
+}
+
+.artwork a{
+    width: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* contact */
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials img {
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#chat input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    border: 2px solid #dedede;
+    border-radius: 12px;
+    background-color: #fff;
+    color: #29335C;
+}
+
+#chat input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #29335c83;
+}
+
+#chat button {
+    width: 100%;
+    max-width: 100px;
+    font-family: "Quicksand";
+    font-size: 16px;
+    border: 2px solid #dedede;
+    border-radius: 12px;
+    background-color: #ffffffcf;
+    color: #29335C;
+  }
+  
+  #chat button:hover {
+    background-color: #29335c83;
+    color: #29335C;
+  }
+
+
+/*#logo {
     height:250px;
     width:250px;
     transform:rotate(-4deg);
@@ -24,51 +185,20 @@ body {
     margin:0;
 
     position:absolute;
+    top: 5%;
     left:2%;
 }
 
-.navbar {
-    padding:10px;
-    margin:0;
-
-    position:sticky;
-    top:0;
-    z-index:100;
-    text-align:right;
-
-    list-style-type:none;
-}
-
-.pagenames {
-    height:auto;
-    width: auto;
-
-    display:inline-block;
-    padding-inline:30px;
-    margin:0px;
-}
-
-.pagenames a {
-    color:#29335C;
-    font-family:"Quicksand";
-    font-size:20px;
-    font-weight:300;
-    letter-spacing:5px;
-
-    text-decoration:none;
-}
-.pagenames a:hover {
-    
-    color:#DB2B39
-}
-
 #name {
-    height:auto;
-    width:auto;
-    padding:0;
-    margin:0;
+    display: flex;
+    justify-content: center;
 
-    position:relative;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
     top:3em;
 
     color: #29335C;
@@ -98,11 +228,11 @@ body {
 
 }
 
-.computer {
+.comp {
     height:750px;
     width:790px;
     transform:rotate(7deg);
-    padding:0;
+    padding:50px;;
     margin:0;
 
     position:absolute;
@@ -111,7 +241,7 @@ body {
     z-index:-1;
 }
 
-.go {
+#go {
     height:auto;
     width:100vw;
     padding:0;
@@ -128,10 +258,10 @@ body {
     letter-spacing:5px;
 }
 
-.outerbox {
-    height:90vh;
-    width:90vw;
-    border-style:solid;
-    border-width:2px;
-    border:#29335C
-}
+#about {
+    display: flex;
+    top:50%;
+
+
+    
+}*/
