@@ -4,7 +4,7 @@ import App from './App';
 import Routing from './Routing.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render (
   <React.StrictMode>
     <Routing>
       <App/>

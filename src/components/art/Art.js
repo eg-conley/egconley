@@ -6,7 +6,7 @@ import Button from '../Button'
 import Takeout from "../../assets/takeout.JPG"
 import Mosaic from "../../assets/mosaic.jpeg"
 import Hand from "../../assets/hand.jpeg"
-import Ocean from "../../assets/soph.png"
+import Ocean from "../../assets/ocean.png"
 
 const Art = () => {
     return (

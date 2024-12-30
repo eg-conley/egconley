@@ -2,8 +2,6 @@ import React from 'react'
 import './experience.css'
 import Button from '../Button';
 
-
-
 const Experience = () => {
     return (
         <div id="experience_section">

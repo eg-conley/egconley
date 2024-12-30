@@ -3,7 +3,7 @@ import App from './App.js';
 import MoreProjects from './components/projects/MoreProjects.js';
 import MoreArt from './components/art/MoreArt.js';
 
-function Routing() {
+const Routing = () => {
     return (
         <Router>
             <Routes>

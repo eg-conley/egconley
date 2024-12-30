@@ -19,3 +19,42 @@ const Contact = () => {
 }
 
 export default Contact
+
+//         <div id="chat">
+//           <form>
+//             <input type="text" name='user-input' id="questionInput" placeholder="ASK ME A QUESTION"></input>
+//             <Button type="submit">SUBMIT</Button>
+//           </form>
+//         </div>
+
+// form {
+//     display: flex;
+//     justify-content: center;
+// }
+
+// #chat {
+//     padding: 10px;
+// }
+
+// #chat input[type="text"] {
+//     width: 100%;
+//     max-width: 400px;
+//     padding: 7px;
+//     font-family: "Quicksand";
+//     letter-spacing: 5px;
+//     font-size: 15px;
+//     border: 2px solid #003Cd7;
+//     border-radius: 10px;
+//     background-color: #fff;
+//     color: #003Cd7;
+// }
+
+// #chat input[type="text"]:focus {
+//     outline: none;
+//     border: 2px solid #003Cd7;
+//     color: #003Cd7;
+// }
+
+// #chat Button {
+//     font-size: 15px;
+// }
