@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/egconley/static/css/main.2f1155a9.css",
-    "main.js": "/egconley/static/js/main.dbc32493.js",
-    "static/media/ocean.png": "/egconley/static/media/ocean.84ead93d9de402274c60.png",
-    "static/media/still.jpeg": "/egconley/static/media/still.0ec321684119f11eab50.jpeg",
-    "static/media/chase.png": "/egconley/static/media/chase.93e946dda7660c5c9442.png",
-    "static/media/mosaic.jpeg": "/egconley/static/media/mosaic.35ace896bb17d5f3fa55.jpeg",
-    "static/media/website.png": "/egconley/static/media/website.0b407aecb53bf876e018.png",
-    "static/media/hand.jpeg": "/egconley/static/media/hand.b8029e7f294927f12d34.jpeg",
-    "static/media/takeout.JPG": "/egconley/static/media/takeout.e5b1fb3b6dbc88d57a79.JPG",
-    "static/media/portrait.jpeg": "/egconley/static/media/portrait.fba6280823f2ee1eba87.jpeg",
-    "static/media/email.png": "/egconley/static/media/email.f6ddeac068727d0ee992.png",
-    "static/media/linkedin.png": "/egconley/static/media/linkedin.5c674cb4c035fc6ca4ac.png",
-    "static/media/liedetector.png": "/egconley/static/media/liedetector.7d8176feb3d5345a7dff.png",
-    "static/media/github.png": "/egconley/static/media/github.b0008720281e3296c85b.png",
-    "static/media/morsecode.png": "/egconley/static/media/morsecode.4bf2d39ce0dd5bf61bdd.png",
-    "static/media/dogpound.jpeg": "/egconley/static/media/dogpound.f86b59a7373ea77c96a5.jpeg",
-    "index.html": "/egconley/index.html",
-    "main.2f1155a9.css.map": "/egconley/static/css/main.2f1155a9.css.map",
-    "main.dbc32493.js.map": "/egconley/static/js/main.dbc32493.js.map"
+    "main.css": "/static/css/main.2f1155a9.css",
+    "main.js": "/static/js/main.df1d1fbf.js",
+    "static/media/ocean.png": "/static/media/ocean.84ead93d9de402274c60.png",
+    "static/media/still.jpeg": "/static/media/still.0ec321684119f11eab50.jpeg",
+    "static/media/chase.png": "/static/media/chase.93e946dda7660c5c9442.png",
+    "static/media/mosaic.jpeg": "/static/media/mosaic.35ace896bb17d5f3fa55.jpeg",
+    "static/media/website.png": "/static/media/website.0b407aecb53bf876e018.png",
+    "static/media/hand.jpeg": "/static/media/hand.b8029e7f294927f12d34.jpeg",
+    "static/media/takeout.JPG": "/static/media/takeout.e5b1fb3b6dbc88d57a79.JPG",
+    "static/media/portrait.jpeg": "/static/media/portrait.fba6280823f2ee1eba87.jpeg",
+    "static/media/email.png": "/static/media/email.f6ddeac068727d0ee992.png",
+    "static/media/linkedin.png": "/static/media/linkedin.5c674cb4c035fc6ca4ac.png",
+    "static/media/liedetector.png": "/static/media/liedetector.7d8176feb3d5345a7dff.png",
+    "static/media/github.png": "/static/media/github.b0008720281e3296c85b.png",
+    "static/media/morsecode.png": "/static/media/morsecode.4bf2d39ce0dd5bf61bdd.png",
+    "static/media/dogpound.jpeg": "/static/media/dogpound.f86b59a7373ea77c96a5.jpeg",
+    "index.html": "/index.html",
+    "main.2f1155a9.css.map": "/static/css/main.2f1155a9.css.map",
+    "main.df1d1fbf.js.map": "/static/js/main.df1d1fbf.js.map"
   },
   "entrypoints": [
     "static/css/main.2f1155a9.css",
-    "static/js/main.dbc32493.js"
+    "static/js/main.df1d1fbf.js"
   ]
 }
