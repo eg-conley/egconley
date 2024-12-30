@@ -39,7 +39,7 @@ const Art = () => {
                 </div>
 
                 <div className="art_item">
-                    <Link to="/moreart"><img/></Link>
+                    <Link to="/moreart"></Link>
                 </div>
             </div>
 
