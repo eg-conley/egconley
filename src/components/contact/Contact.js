@@ -7,6 +7,7 @@ import githubDrawing from "../../assets/github.png"
 const Contact = () => {
     return (
         <div id='contact_section'>
+
             <h1>CONTACT ME</h1>
             <div className="socials">
                 <a target="_blank" href="mailto:egconley@bu.edu"><img id="email-img" width="75" src={emailDrawing} /></a>
@@ -14,6 +15,7 @@ const Contact = () => {
                 <a target="_blank" href="https://github.com/eg-conley"><img id="github-img" width="75" src={githubDrawing} /></a>
             </div>
             <p>made with &lt;3</p>
+            
         </div>
     )
 }

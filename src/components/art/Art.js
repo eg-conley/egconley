@@ -1,10 +1,10 @@
 import React from 'react'
 import './art.css'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import Button from '../Button'
-
 import Takeout from "../../assets/takeout.JPG"
 import Mosaic from "../../assets/mosaic.jpeg"
+import Still from "../../assets/still.jpeg"
 import Hand from "../../assets/hand.jpeg"
 import Ocean from "../../assets/ocean.png"
 
@@ -18,32 +18,30 @@ const Art = () => {
             </div>
       
             <div className="art_container">
-
                 <div className="art_item">
-                <a href="" target="_blank"><img src={Takeout}/></a>
+                    <Link to="/moreart"><img src={Takeout}/></Link>
                 </div>
 
                 <div className="art_item">
-                <a href="" target="_blank"><img src={Mosaic}/></a>
+                    <Link to="/moreart"><img src={Mosaic}/></Link>
                 </div>
 
                 <div className="art_item">
-                <a href="https://github.com/eg-conley" target="_blank"></a>
+                    <Link to="/moreart"><img src = {Hand}/></Link>
                 </div>
 
                 <div className="art_item">
-                <a href="https://github.com/eg-conley" target="_blank"><img src={Hand}/></a>
+                    <Link to="/moreart"><img className="still" src={Still}/></Link>
                 </div>
 
                 <div className="art_item">
-                <a href="https://github.com/eg-conley" target="_blank"><img src={Ocean}/></a>
+                    <Link to="/moreart"><img src={Ocean}/></Link>
                 </div>
 
                 <div className="art_item">
-                <a href="https://github.com/eg-conley" target="_blank"></a>
+                    <Link to="/moreart"><img/></Link>
                 </div>
-
-          </div>
+            </div>
 
         </div>
     )

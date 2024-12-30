@@ -1,7 +1,7 @@
 import React from "react";
 import './moreart.css';
 
-function ArtDesign() {
+const MoreArt = () => {
     return (
         <div className="moreart_section">
             <h1>MORE COMING SOON</h1>
@@ -9,4 +9,4 @@ function ArtDesign() {
     );
 }
 
-export default ArtDesign;
+export default MoreArt;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './moreprojects.css'
 
-function Projects() {
+const MoreProjects = () => {
     return (
         <div className='moreprojects_section'>
             <h1>MORE COMING SOON</h1>
@@ -9,4 +9,4 @@ function Projects() {
     );
 }
 
-export default Projects;
+export default MoreProjects;

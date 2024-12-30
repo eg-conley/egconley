@@ -1,8 +1,7 @@
 import React from 'react'
 import './projects.css'
 import Button from '../Button.js'
-import { Link } from "react-router-dom"
-
+import {Link} from "react-router-dom"
 import DogPound from "../../assets/dogpound.jpeg"
 import MorseCode from "../../assets/morsecode.png"
 import Chase from "../../assets/chase.png"
@@ -20,31 +19,29 @@ const Projects = () => {
             </div>
 
             <div className="projects_container">
-
                 <div className="projects_item">
-                <a href="https://github.com/eg-conley/EC311_project" target="_blank"><img className="morse" src={MorseCode}/></a>
+                    <a href="https://github.com/eg-conley/EC311_project" target="_blank"><img className="morse" src={MorseCode}/></a>
                 </div>
 
                 <div className="projects_item">
-                <a href="https://github.com/eg-conley/hackhardware2024" target="_blank"><img className="morse" src={Chase}/></a>
+                    <a href="https://github.com/eg-conley/hackhardware2024" target="_blank"><img src={Chase}/></a>
                 </div>
 
                 <div className="projects_item">
-                <a href="https://github.com/eg-conley/egconley" target="_blank"><img src={Website}/></a>
+                    <a href="https://github.com/eg-conley/egconley" target="_blank"><img src={Website}/></a>
                 </div>
 
                 <div className="projects_item">
-                <a href="https://github.com/eg-conley/dogpound" target="_blank"><img src={DogPound}/></a>
+                    <a href="https://github.com/eg-conley/dogpound" target="_blank"><img src={DogPound}/></a>
                 </div>
 
                 <div className="projects_item">
-                <a href="https://github.com/eg-conley/liedetector/tree/main" target="_blank"><img src={LieDetector}/></a>
+                    <a href="https://github.com/eg-conley/liedetector/tree/main" target="_blank"><img src={LieDetector}/></a>
                 </div>
 
                 <div className="projects_item">
-                <a href="https://github.com/eg-conley" target="_blank"></a>
+                    <a href="https://github.com/eg-conley" target="_blank"><img/></a>
                 </div>
-            
             </div>
 
         </div>
