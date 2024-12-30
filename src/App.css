@@ -1,34 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Quicksand:wght@300..700&display=swap');
 
 * {
     padding: 0;
     margin: 0;
-}
-
-body {
-    background-image: url("/src/assets/paperbackground.jpg");
-    margin-bottom: 100px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
+.root {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 4460px;
+}
+
+#footer {
+    width: 100vw;
+    height: 300px;
+}
+
+/* navigation */
 .navbar {
+    width: 100vw;
+    height: auto;
+    padding-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    width: 100vw;
-    margin: 0;
-    padding: 10px 0;
-
-    background-image: url("/src/assets/paperbackground.jpg");
-    box-shadow: 0 1px 5px rgba(41, 51, 91, 0.1);
-
     position: fixed;
-    top: 0px;
     z-index: 1;
 }
 
+.navbar h1 {
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding-right: 200px;
+}
+
 .navbar a {
-    color: #29335C;
+    color: #003Cd7;
     font-family: "Quicksand";
     font-size: 20px;
     font-weight: 300;
@@ -37,72 +47,179 @@ body {
 }
 
 .navbar a:hover {
-    color: #DB2B39;
-    font-style: italic;
+    text-decoration: underline;
 }
 
-#about, #experience, #projects, #artdesign, #contact {
-    width: 75vw;
-    height: auto;
+
+/* landing */
+#landing {
+    height: 832px;
+    display: block;
+}
+
+.image-container {
+    display: block;
     position: relative;
-    top: 50px;
-    margin: 50px auto;
-    padding: 50px;
-    background-color: #fefefe8e;
-    border-radius: 12px;
-
-    font-family: "Quicksand";
-    font-size: 20px;
-    font-weight:300;
-    letter-spacing:5px;
-    color: #29335C;
+    top: 20%;
 }
 
-#about h1, #experience h2, #projects h2, #artdesign h2, #contact h2 {
-    text-align: center;
-    font-family: "Playfair Display";
+.image-container img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 15%;
+}
+
+.welcome-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-20%, -50%); 
+}
+
+.welcome-overlay h1 {
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 125px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+#about h1, #experience h1, #projects h1, #artdesign h1, #footer h1 {
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 50px;
+    letter-spacing: 5px;
 }
 
 /* about */
-.profile-img {
-    text-align: center;
+#about {
+    height: 832px;
+    display: block;
 }
 
-.profile-text p{
+.profile-header {
+    display: block;
+    position: relative;
+}
+
+.profile-header h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.profile-text {
+    color: #003Cd7;
     font-family: "Quicksand";
     font-size: 20px;
     font-weight: 300;
     letter-spacing: 5px;
-    color: #29335C;
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    padding: 0 100px;
+}
+
+/* experience */
+#experience {
+    height: 832px;
+    display: block;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: right;
+    padding: 50px;
+}
+
+#experience h1 {
+    text-align: right;
+}
+
+.experience-header a{
+    padding-right: 200px; 
+}
+
+.experience-header Button{
+    margin-top: 10px; 
+}
+
+.job {
+    color: #003Cd7;
+    font-family: "Quicksand";
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 5px;
     padding: 15px;
+
+    display: block;
+    position: relative;
+    padding: 0 50px;
+}
+
+.job-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.job ul {
+    font-size: 15px;
+    line-height: 25px;;
+    margin-left: 20px;
 }
 
 .skills {
     display: flex;
     justify-content: center;
+    padding: 30px;
 }
 
 .skills img {
     padding: 25px;
 }
 
-/* experience */
-.job {
-    padding: 15px;
-}
-
-.job-info {
-    display: flex;
-    justify-content: space-between;
-}
-
-.job ul {
-    margin-left: 20px;
-}
-
 /* projects*/
+#projects {
+    height: 832px;
+    display: block;
+}
+
+.projects-header {
+    display: flex;
+    justify-content: left;
+    padding: 50px;
+}
+
+#projects h1 {
+    text-align: left;
+}
+
+.projects-header a{
+    padding-left: 250px; 
+}
+
+.projects-header Button{
+    margin-top: 10px; 
+}
+
 .project {
+    color: #003Cd7;
+    font-family: "Quicksand";
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 5px;
     padding: 15px;
+
+    display: block;
+    position: relative;
+    padding: 0 50px;
 }
 
 .project a{
@@ -112,7 +229,58 @@ body {
     margin-right: auto;
 }
 
+.project-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    gap: 20px 100px;
+    position: relative;
+}
+
+.project-item {
+    width: 300px;
+    height: 300px;
+    background-color:#003Cd7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.project-item img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.project-item .morse {
+    object-fit: cover;
+    width: 305px;
+    height: 300px;
+}
+
 /* art & design */
+#artdesign {
+    height: 832px;
+    display: block;
+}
+
+.artdesign-header {
+    display: flex;
+    justify-content: right;
+    padding: 50px;
+
+}
+
+#artdesign h1 {
+    text-align: right;
+}
+
+.artdesign-header a{
+    padding-right: 350px; 
+}
+
+.artdesign-header Button{
+    margin-top: 10px; 
+}
+
 .artwork {
     font-family: "Quicksand";
     font-size: 20px;
@@ -121,21 +289,53 @@ body {
     color: #29335C;
 }
 
-.artwork a{
-    width: 200px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.art-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    gap: 20px 100px;
+    position: relative;
+}
+
+.art-item {
+    width: 300px;
+    height: 300px;
+    background-color:#003Cd7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.art-item img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
 }
 
 /* contact */
+#footer h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+#footer p {
+    color: #003Cd7;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+}
+
 .socials {
     display: flex;
     justify-content: center;
 }
 
 .socials img {
-    padding: 15px;
+    padding: 7px;
 }
 
 form {
@@ -143,40 +343,33 @@ form {
     justify-content: center;
 }
 
+#chat {
+    padding: 10px;
+}
+
 #chat input[type="text"] {
     width: 100%;
     max-width: 400px;
-    padding: 10px 15px;
+    padding: 7px;
     font-family: "Quicksand";
-    font-size: 16px;
-    border: 2px solid #dedede;
-    border-radius: 12px;
+    letter-spacing: 5px;
+    font-size: 15px;
+    border: 2px solid #003Cd7;
+    border-radius: 10px;
     background-color: #fff;
-    color: #29335C;
+    color: #003Cd7;
 }
 
 #chat input[type="text"]:focus {
     outline: none;
-    border: 2px solid #29335c83;
+    border: 2px solid #003Cd7;
+    color: #003Cd7;
 }
 
-#chat button {
-    width: 100%;
-    max-width: 100px;
-    font-family: "Quicksand";
-    font-size: 16px;
-    border: 2px solid #dedede;
-    border-radius: 12px;
-    background-color: #ffffffcf;
-    color: #29335C;
-  }
+#chat Button {
+    font-size: 15px;
+}
   
-  #chat button:hover {
-    background-color: #29335c83;
-    color: #29335C;
-  }
-
-
 /*#logo {
     height:250px;
     width:250px;

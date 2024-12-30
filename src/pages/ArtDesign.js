@@ -1,6 +1,12 @@
+import React from "react";
+import './artdesign.css';
+
+
 function ArtDesign() {
     return (
-        <h1>art and design page</h1>
+        <div className="moreArt_container">
+            <h1>MORE COMING SOON</h1>
+        </div>
     );
 }
 

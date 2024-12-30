@@ -19,7 +19,10 @@
 - started designing and configuring the home page
 - created background on Photoshop
 
-### actober 3:
+### october 3:
 - restarted with fresh React project, configured from there instead of with Vite
 - learned and set out routing to pages
 - refined JS code and cleaned up setup
+
+## november 2:
+- refocused on getting the basics in and to work on design later
