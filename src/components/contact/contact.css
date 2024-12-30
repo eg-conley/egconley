@@ -1,0 +1,30 @@
+#contact_section h1 {
+    text-align: center;
+    padding: 10px;
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#contact_section p {
+    color: #003Cd7;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 10px 0 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.socials img {
+    padding: 7px;
+}

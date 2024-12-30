@@ -1,0 +1,33 @@
+#about_section {
+    height: 832px;
+    display: block;
+}
+
+.profile_header {
+    display: block;
+    position: relative;
+}
+
+.profile_header h1 {
+    text-align: center;
+    padding: 50px;
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.profile_text {
+    color: #003Cd7;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 5px;
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    padding: 0 50px;
+}

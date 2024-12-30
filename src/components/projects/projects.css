@@ -1,0 +1,48 @@
+#projects_section{
+    height: 832px;
+    display: block;
+}
+
+.projects_header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 50px;
+}
+
+.projects_header h1 {
+    text-align: left;
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.projects_header a{
+    padding-left: 250px; 
+}
+
+.projects_header Button{
+    margin-top: 10px; 
+}
+
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    gap: 20px 100px;
+    position: relative;
+}
+
+.projects_item {
+    width: 300px;
+    height: 300px;
+    background-color:#003Cd7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.projects_item img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}

@@ -1,10 +1,10 @@
 import React from "react";
-import './artdesign.css';
+import './moreart.css';
 
 
 function ArtDesign() {
     return (
-        <div className="moreArt_container">
+        <div className="moreart_section">
             <h1>MORE COMING SOON</h1>
         </div>
     );

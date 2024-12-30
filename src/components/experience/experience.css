@@ -1,0 +1,62 @@
+#experience_section {
+    height: 832px;
+    display: block;
+}
+
+.experience_header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 50px;
+}
+
+.experience_header h1 {
+    text-align: right;
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.experience_header a{
+    padding-right: 200px; 
+}
+
+.experience_header Button{
+    margin-top: 10px; 
+}
+
+.job {
+    color: #003Cd7;
+    font-family: "Quicksand";
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    padding: 15px;
+
+    display: block;
+    position: relative;
+    padding: 0 50px;
+}
+
+.job_info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.job ul {
+    font-size: 15px;
+    line-height: 25px;;
+    margin-left: 20px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.skills img {
+    padding: 25px;
+}

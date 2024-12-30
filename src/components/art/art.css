@@ -1,0 +1,48 @@
+#art_section{
+    height: 832px;
+    display: block;
+}
+
+.art_header {
+    display: flex;
+    justify-content: right;
+    padding: 50px;
+
+}
+
+.art_header h1 {
+    text-align: right;
+    color: #003Cd7;
+    font-family: "Inter";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.art_header a{
+    padding-right: 350px; 
+}
+
+.art_header Button{
+    margin-top: 10px; 
+}
+
+.art_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    gap: 20px 100px;
+    position: relative;
+}
+
+.art_item {
+    width: 300px;
+    height: 300px;
+    background-color:#003Cd7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.art_item img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
