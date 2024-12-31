@@ -40,7 +40,7 @@ const Projects = () => {
                 </div>
 
                 <div className="projects_item">
-                    <a href="https://github.com/eg-conley" target="_blank" rel="noopener noreferrer"></a>
+                    
                 </div>
             </div>
 
