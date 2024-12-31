@@ -20,27 +20,27 @@ const Projects = () => {
 
             <div className="projects_container">
                 <div className="projects_item">
-                    <a href="https://github.com/eg-conley/EC311_project" target="_blank"><img className="morse" src={MorseCode}/></a>
+                    <a href="https://github.com/eg-conley/EC311_project" target="_blank" rel="noopener noreferrer"><img className="morse" alt="project" src={MorseCode}/></a>
                 </div>
 
                 <div className="projects_item">
-                    <a href="https://github.com/eg-conley/hackhardware2024" target="_blank"><img src={Chase}/></a>
+                    <a href="https://github.com/eg-conley/hackhardware2024" target="_blank" rel="noopener noreferrer"><img alt="project" src={Chase}/></a>
                 </div>
 
                 <div className="projects_item">
-                    <a href="https://github.com/eg-conley/egconley" target="_blank"><img src={Website}/></a>
+                    <a href="https://github.com/eg-conley/egconley" target="_blank" rel="noopener noreferrer"><img alt="project" src={Website}/></a>
                 </div>
 
                 <div className="projects_item">
-                    <a href="https://github.com/eg-conley/dogpound" target="_blank"><img src={DogPound}/></a>
+                    <a href="https://github.com/eg-conley/dogpound" target="_blank" rel="noopener noreferrer"><img alt="project" src={DogPound}/></a>
                 </div>
 
                 <div className="projects_item">
-                    <a href="https://github.com/eg-conley/liedetector/tree/main" target="_blank"><img src={LieDetector}/></a>
+                    <a href="https://github.com/eg-conley/liedetector/tree/main" target="_blank" rel="noopener noreferrer"><img alt="project" src={LieDetector}/></a>
                 </div>
 
                 <div className="projects_item">
-                    <a href="https://github.com/eg-conley" target="_blank"><img/></a>
+                    <a href="https://github.com/eg-conley" target="_blank" rel="noopener noreferrer"></a>
                 </div>
             </div>
 

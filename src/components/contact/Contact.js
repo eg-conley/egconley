@@ -10,9 +10,9 @@ const Contact = () => {
 
             <h1>CONTACT ME</h1>
             <div className="socials">
-                <a target="_blank" href="mailto:egconley@bu.edu"><img id="email-img" width="75" src={emailDrawing} /></a>
-                <a target="_blank" href="https://linkedin.com/in/ellaconley"><img id="linkedin-img" width="75" src={linkedinDrawing} /></a>
-                <a target="_blank" href="https://github.com/eg-conley"><img id="github-img" width="75" src={githubDrawing} /></a>
+                <a target="_blank" rel="noopener noreferrer" href="mailto:egconley@bu.edu"><img id="email-img" alt="mail" width="75" src={emailDrawing} /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/ellaconley"><img id="linkedin-img" alt="linkedin" width="75" src={linkedinDrawing} /></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/eg-conley"><img id="github-img" alt="github" width="75" src={githubDrawing} /></a>
             </div>
             <p>made with &lt;3</p>
             

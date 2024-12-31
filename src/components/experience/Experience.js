@@ -7,7 +7,7 @@ const Experience = () => {
         <div id="experience_section">
             
             <div className="experience_header">
-                <a href="https://drive.google.com/file/d/1b_x_7BLYpmb2AcGnp33cmh4YFfCXjg_M/view?usp=sharing" target="_blank"><Button>RESUME</Button></a>
+                <a href="https://drive.google.com/file/d/1b_x_7BLYpmb2AcGnp33cmh4YFfCXjg_M/view?usp=sharing" rel="noopener noreferrer" target="_blank"><Button>RESUME</Button></a>
                 <h1>MY <em>EXPERIENCE</em> AND <em>SKILLS</em></h1>
             </div>
         
@@ -50,11 +50,11 @@ const Experience = () => {
             </div>
 
             <div className="skills">
-                <img width="55" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" />
-                <img width="55" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" />
-                <img width="45" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/640px-CSS3_logo_and_wordmark.svg.png" />
-                <img width="100" src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Symbol.png" />
-                <img width="65" src="https://www.svgrepo.com/show/374163/verilog.svg" />
+                <img width="55" alt="cpp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" />
+                <img width="55" alt="html" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" />
+                <img width="45" alt="css" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/640px-CSS3_logo_and_wordmark.svg.png" />
+                <img width="100" alt="js" src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Symbol.png" />
+                <img width="65" alt="verilog" src="https://www.svgrepo.com/show/374163/verilog.svg" />
             </div>
 
         </div>

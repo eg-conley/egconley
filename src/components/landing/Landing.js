@@ -8,7 +8,7 @@ const Landing = () => {
         <div id='landing_section'>
 
             <div className="image">
-                <img src={portrait} />
+                <img alt="picture of me" src={portrait} />
                 <div className="welcome">
                     <h1>WELCOME</h1>
                     <h1>WELCOME</h1>
