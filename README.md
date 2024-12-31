@@ -24,3 +24,4 @@
   - would like to implement interactivity
   - would like to make more hand-drawn assets
   - possibly implement chat feature
+  - make more mobile friendly
