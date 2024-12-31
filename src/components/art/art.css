@@ -4,13 +4,12 @@
 
 .art_header {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
     padding: 50px;
-
 }
 
 .art_header h1 {
-    text-align: right;
     color: #003Cd7;
     font-family: "Inter";
     font-size: 50px;
@@ -18,12 +17,9 @@
 }
 
 .art_header a{
-    padding-right: 350px; 
+    padding-left: 150px;
 }
 
-.art_header Button{
-    margin-top: 10px; 
-}
 
 .art_grid {
     display: grid;
@@ -33,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-self: center;
-    gap: 20px 100px;
+    gap: 20px 200px;
     position: relative;
 }
 

@@ -4,13 +4,12 @@
 
 .projects_header {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
 }
 
 .projects_header h1 {
-    text-align: left;
     color: #003Cd7;
     font-family: "Inter";
     font-size: 50px;
@@ -18,11 +17,7 @@
 }
 
 .projects_header a{
-    padding-left: 250px; 
-}
-
-.projects_header Button{
-    margin-top: 10px; 
+    padding-right: 150px; 
 }
 
 .container_grid {
@@ -33,7 +28,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-self: center;
-    gap: 20px 100px;
+    gap: 20px 200px;
     position: relative;
 }
 

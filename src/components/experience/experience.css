@@ -4,13 +4,12 @@
 
 .experience_header {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
 }
 
 .experience_header h1 {
-    text-align: right;
     color: #003Cd7;
     font-family: "Inter";
     font-size: 50px;
@@ -18,11 +17,7 @@
 }
 
 .experience_header a{
-    padding-right: 200px; 
-}
-
-.experience_header Button{
-    margin-top: 10px; 
+    padding-left: 75px; 
 }
 
 .job {
