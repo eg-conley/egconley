@@ -19,23 +19,23 @@ const Art = () => {
       
             <div className="art_container">
                 <div className="art_item">
-                    <Link to="/moreart"><img alt="art project image" src={Takeout}/></Link>
+                    <Link to="/moreart"><img alt="art project" src={Takeout}/></Link>
                 </div>
 
                 <div className="art_item">
-                    <Link to="/moreart"><img alt="art project image"src={Mosaic}/></Link>
+                    <Link to="/moreart"><img alt="art project"src={Mosaic}/></Link>
                 </div>
 
                 <div className="art_item">
-                    <Link to="/moreart"><img alt="art project image"src = {Hand}/></Link>
+                    <Link to="/moreart"><img alt="art project"src = {Hand}/></Link>
                 </div>
 
                 <div className="art_item">
-                    <Link to="/moreart"><img alt="art project image" className="still" src={Still}/></Link>
+                    <Link to="/moreart"><img alt="art project" className="still" src={Still}/></Link>
                 </div>
 
                 <div className="art_item">
-                    <Link to="/moreart"><img alt="art project image" src={Ocean}/></Link>
+                    <Link to="/moreart"><img alt="art project" src={Ocean}/></Link>
                 </div>
 
                 <div className="art_item">

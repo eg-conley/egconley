@@ -1,5 +1,6 @@
 import React from 'react'
 import './nav.css'
+import Button from '../Button'
 
 const handleClickScroll = (id) => {
     const element = document.getElementById(id);
@@ -13,11 +14,11 @@ const Nav = () => {
         <div className='navbar'>
 
             <h1>ELLA CONLEY</h1>
-            <a onClick={() => handleClickScroll('about_section')}>about</a>
-            <a onClick={() => handleClickScroll("experience_section")}>experience</a>
-            <a onClick={() => handleClickScroll("projects_section")}>projects</a>
-            <a onClick={() => handleClickScroll("art_section")}>art & design</a>
-            <a onClick={() => handleClickScroll("contact_section")}>contact</a>
+            <Button onClick={() => handleClickScroll('about_section')}>about</Button>
+            <Button onClick={() => handleClickScroll("experience_section")}>experience</Button>
+            <Button onClick={() => handleClickScroll("projects_section")}>projects</Button>
+            <Button onClick={() => handleClickScroll("art_section")}>art & design</Button>
+            <Button onClick={() => handleClickScroll("contact_section")}>contact</Button>
             
         </div>
     )

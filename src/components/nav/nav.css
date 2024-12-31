@@ -17,15 +17,13 @@
     padding-right: 200px;
 }
 
-.navbar a {
+.navbar Button {
     color: #003Cd7;
-    font-family: "Quicksand";
     font-size: 20px;
-    font-weight: 300;
-    letter-spacing: 5px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    text-decoration: underline;
+    background-color: #ffffff00;
+    border-radius: 10px;
+    border: 1px solid #ffffff00;
+    &:hover {
+        text-decoration: underline;
+    }
 }
