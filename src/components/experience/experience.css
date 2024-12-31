@@ -53,7 +53,7 @@
 .skills {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .skills img {
