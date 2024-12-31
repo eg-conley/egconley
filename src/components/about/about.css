@@ -1,5 +1,4 @@
 #about_section {
-    height: 832px;
     display: block;
 }
 
@@ -30,4 +29,43 @@
     justify-content: space-around;
     position: relative;
     padding: 0 50px;
+}
+
+
+/* for smaller devices (medium, small) */
+@media screen and (max-width: 1024px) {
+    #about__section{
+        width: 50%;
+        height: 100vh;
+        gap: 0;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .about__me{
+
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards{
+
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content{
+
+        text-align: center;
+    }
+
+    .about__content p{
+
+        margin: 1.5rem 0;
+    }
 }

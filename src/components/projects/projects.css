@@ -1,5 +1,4 @@
 #projects_section{
-    height: 832px;
     display: block;
 }
 
@@ -26,6 +25,10 @@
     margin-top: 10px; 
 }
 
+.container_grid {
+    display: grid;
+}
+
 .projects_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -35,24 +38,24 @@
 }
 
 .projects_item {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-color:#003Cd7;
     border-radius: 10px;
     overflow: hidden;
 }
 .projects_item img{
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 .projects_item img.morse {
-    width: 310px;
-    height: 300px;
+    width: 240px;
+    height: 250px;
 }
 
 .projects_item img.morse {
-    width: 310px;
-    height: 300px;
+    width: 260px;
+    height: 250px;
 }
