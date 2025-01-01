@@ -19,6 +19,7 @@
 - re-organized the files (from everything in one App.js and App.css file to respective files)
 - finishing touches on the basic, functional website
 - figured out where/how to host website
+  - netlify: https://ellaconley.netlify.app
 - still a lot of work and improvements to make
   - more projects and more art pages
   - would like to implement interactivity
